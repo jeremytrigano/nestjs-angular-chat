@@ -1,0 +1,19 @@
+There are currently <strong>{{ users }}</strong> users online. Start chatting!
+<ul>
+  <li *ngFor="let message of messages">
+    {{ message }}
+  </li>
+</ul>
+
+<textarea
+  spellcheck="true"
+  autoComplete="true"
+  autocorrect="true"
+  rows="1"
+  class="chat-input"
+  [(ngModel)]="message"
+  placeholder="type message..."
+  (keyup.enter)="addChat()"
+></textarea>
+
+<button (click)="addChat()" slot="end" class="send-chat-button">Send</button>
