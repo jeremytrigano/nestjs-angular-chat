@@ -2,11 +2,19 @@
 
 ## Commands
 
+### PostgreSQL
+
+Run PostgreSQL server
+
+`npm run typeorm:migration:generate -- my_init`
+
+`npm run typeorm:migration:run`
+
 ### NestJS
 
 `cd nestjs`
 
-`nest start`
+`npm run start:dev`
 
 ### Angular
 
@@ -15,7 +23,3 @@
 `ng serve`
 
 `ng serve --port 4201`
-
-### PostgreSQL
-
-Run PostgreSQL server
