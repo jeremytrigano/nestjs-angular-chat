@@ -82,3 +82,6 @@
 /nestjs/!.vscode/tasks.json
 /nestjs/!.vscode/launch.json
 /nestjs/!.vscode/extensions.json
+
+# Misc
+/nestjs/.env
